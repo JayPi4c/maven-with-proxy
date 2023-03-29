@@ -16,7 +16,7 @@ stages:
   - build
 
 maven-build:
-  image: registry.gitlab.uni-oldenburg.de/tejo8328/maven-with-proxy
+  image: jaypi4c/maven-with-proxy:3.9.0-eclipse-temurin-17-alpine
   variables: 
     PROXY_HOST: $PROXY_HOST
     PROXY_PORT: $PROXY_PORT
